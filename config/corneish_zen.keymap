@@ -121,7 +121,7 @@
    &gresc       &kp Q        &kp W       &kp E        &kp R        &kp T            &kp Y   &kp U        &kp I        &kp O        &kp P            &kp BSPC
    &qt BSPC TAB &hm LCTRL A  &hm LALT S  &hm LCMD D   &hm LSHFT F  &kp G            &kp H   &bhm RSHFT J &bhm RCMD K  &bhm RALT L  &bhm RCTRL SEMI  &kp SQT
    &kp LSHFT    &kp Z        &kp X       &kp C        &kp V        &kp B            &kp N   &kp M        &kp COMMA    &kp DOT      &kp FSLH         &kp BSLH
-                                         &kp LGUI     &mo _LOWER   &kp SPACE        &kp RET &kp BSPC  &mo _SYMBOL
+                                         &kp LGUI     &mo _LOWER   &kp SPACE        &kp RET &mo _SYMBOL  &kp BSPC
                         >;
                 };
 
@@ -131,7 +131,7 @@
    &trans     &kp N1    &kp N2   &kp N3    &kp N4    &kp N5         &kp N6       &kp N7       &kp N8       &kp N9    &kp N0   &kp LA(BSPC)
    &kp BSPC   &kp LCTRL &kp LALT &kp LCMD  &kp LSHFT &trans         &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT &trans   &trans
    &kp LSHFT  &trans    &trans   &kp LC(C) &trans    &trans         &kp HOME     &kp PG_DN    &kp PG_UP    &kp END   &kp C_PP &kp C_MUTE
-                                 &kp LGUI  &trans    &kp DEL        &kp KP_ENTER &kp LG(BSPC) &kp LA(BSPC)
+                                 &kp LGUI  &trans    &kp DEL        &kp KP_ENTER &trans       &kp LA(BSPC)
                         >;
                 };
 
