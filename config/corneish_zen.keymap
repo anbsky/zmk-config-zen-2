@@ -115,7 +115,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-                dislplay-name = "QWERTY";
+                display-name = "QWERTY";
                 bindings = <
 &qt BSPC TAB &kp Q        &kp W       &kp E        &kp R        &kp T            &kp Y   &kp U        &kp I        &kp O        &kp P            &kp BSPC
 &gresc       &hm LCTRL A  &hm LALT S  &hm LCMD D   &hm LSHFT F  &kp G            &kp H   &bhm RSHFT J &bhm RCMD K  &bhm RALT L  &bhm RCTRL SEMI  &kp SQT
@@ -125,7 +125,7 @@
         };
 
         raise_layer {
-                dislplay-name = "RAISE";
+                display-name = "RAISE";
                 bindings = <
 &trans     &kp N1    &kp N2   &kp N3    &kp N4    &kp N5         &kp N6         &kp N7       &kp N8       &kp N9    &kp N0   &kp MINUS
 &kp BSPC   &sk LCTRL &sk LALT &sk LCMD  &sk LSHFT &trans         &kp LEFT       &kp DOWN     &kp UP       &kp RIGHT &trans   &trans
@@ -135,7 +135,7 @@
         };
 
         symbol_layer {
-                dislplay-name = "SYMBOL";
+                display-name = "SYMBOL";
                 bindings = <
 &trans &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT     &kp CARET  &kp AMPS   &kp STAR &kp LPAR &kp RPAR &kp DEL 
 &trans &trans   &tmgp  &tmp     &tmn     &tmgn         &kp MINUS  &kp EQUAL  &kp LBKT &kp RBKT &kp BSLH &kp GRAVE
@@ -145,7 +145,7 @@
         };
 
         adjust_layer {
-                dislplay-name = "ADJUST";
+                display-name = "ADJUST";
                 bindings = <
 &trans     &trans       &trans       &trans       &trans       &trans           &trans     &studio_unlock        &trans       &trans &trans &bt BT_CLR_ALL
 &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4     &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &trans &trans &trans
@@ -155,7 +155,7 @@
         };
 
         navi_layer {
-                dislplay-name = "NAVI";
+                display-name = "NAVI";
                 bindings = <
 &trans  &trans   &trans  &trans   &trans   &trans          &trans   &trans    &trans    &trans    &trans  &trans
 &trans  &trans   &trans  &trans   &trans   &trans          &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &trans  &trans
